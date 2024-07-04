@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Summary Extension",
+    "version": "1.0",
+    "description": "Summarizes YouTube video transcripts.",
+    "permissions": [
+      "activeTab",
+      "storage",
+      "https://your-backend-api-url/"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+      }
+    }
+  }
+  
